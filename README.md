@@ -1,25 +1,29 @@
 # D8S AI-driven dashboards
 
 ## Project Overview
+D8S AI-Driven Dashboards is an AI-powered solution that automates the collection, analysis, and presentation of key data from various systems in CI/CD environments. 
 
-    D8S AI-Driven Dashboards is an AI-powered solution that automates the collection, analysis, and presentation of key data from various systems in CI/CD environments. It includes a scraping tool that retrieves information from REST APIs. For systems without a REST API, Node-exporter can be installed. The dashboards operate on a need-to-know principle: if no alerts are present, the dashboard remains blank.
-AI-Driven Analysis:
+## AI-Driven Analysis:
 
-In addition to gathering data, D8S leverages AI to analyze collected metrics and provide actionable insights. The AI algorithms continuously monitor trends and patterns, identifying anomalies or inefficiencies across the systems. By using machine learning models, D8S can predict potential issues, enabling proactive measures and optimizing system performance.
+In addition to gathering data, D8S leverages AI to analyze collected metrics and provide actionable insights. 
+
+The AI algorithms continuously monitor trends and patterns, identifying anomalies or inefficiencies across the systems. 
+
+By using machine learning models, D8S can predict potential issues, enabling proactive measures and optimizing system performance.
 
 For example, the AI can:
 
-    Predict downtime by analyzing resource usage patterns and alerting teams before a critical threshold is reached.
-    Analyze DORA metrics to offer insights on how to improve deployment frequency, reduce lead time, and enhance overall development and operational processes.
-    Identify performance bottlenecks in Kubernetes clusters by monitoring pod performance and resource consumption trends.
+- Predict downtime by analyzing resource usage patterns and alerting teams before a critical threshold is reached.
+- Analyze DORA metrics to offer insights on how to improve deployment frequency, reduce lead time, and enhance overall development and operational processes.
+- Identify performance bottlenecks in Kubernetes clusters by monitoring pod performance and resource consumption trends.
 
-The AI-generated insights are automatically summarized and delivered through the dashboards, ensuring decision-makers get not only a snapshot of the current state but also predictive recommendations to enhance operations.
+The AI-generated insights are automatically summarized and delivered through the dashboards, ensuring decision-makers get not only a snapshot of the current state but also predictive recommendations to enhance operations. The dashboards operate on a need-to-know principle: if no alerts are present, the dashboard remains blank.
 
 With this added layer of AI analysis, the D8S dashboards move beyond simple data presentation to providing deeper, actionable intelligence. Let me know if you'd like to expand on specific AI models or techniques!
 
 ## Key Components:
 1. **Data Collection**:
-    - By using an advanced scraper that integrates with REST APIs from various platforms, relevant data is automatically and continuously collected.
+    - By using an advanced scraper that integrates with REST APIs from various platforms, relevant data is automatically and continuously collected. For systems without a REST API, Node-exporter can be installed. 
 
 2. **Database**:
     - All collected data is stored in a structured database, allowing you to work with both historical and real-time data.

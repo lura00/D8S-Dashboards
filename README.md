@@ -1,7 +1,8 @@
 # D8S AI-driven dashboards
 
 ## Project Overview
-**D8S AI-driven dashboards** is a solution that automates the collection and presentation of key data from various systems by building a scraping tool that retrieves information from REST APIs. For systems lacking a REST API, Node-exporter can be installed. The dashboards are based on a **need-to-know** principle – if there are no alerts, the dashboard remains black.
+
+**D8S AI-Driven Dashboards** is an AI-powered solution designed to automate the collection and presentation of essential data from various systems in CI/CD environments. It includes a scraping tool that retrieves information from REST APIs, and for systems without a REST API, Node-exporter can be installed. The dashboards operate on a **need-to-know** principle: if no alerts are present, the dashboard remains blank.
 
 ## Key Components:
 1. **Data Collection**:
